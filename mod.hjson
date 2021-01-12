@@ -1,1 +1,6 @@
-
+name: "mod"
+displayName: "Mod"
+author: "Flin"
+description: "working"
+version: "0.0"
+minGmaeVersion: "119"
