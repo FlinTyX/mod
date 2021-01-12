@@ -1,0 +1,4 @@
+buildVisibility: debugOnly
+name: Research Block
+description: Unlock new technologies!
+research: core-shard
