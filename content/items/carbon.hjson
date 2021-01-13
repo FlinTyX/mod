@@ -1,0 +1,12 @@
+color: 000000
+name: Carbon
+description: Is produced using Coal Press.
+cost: 1
+hardness: 2
+research: {
+  research: nickel
+  parent: coal
+  requirements: [
+    coal/4709
+  ]
+}
