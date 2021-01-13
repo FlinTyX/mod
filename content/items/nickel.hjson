@@ -1,0 +1,7 @@
+color: ffffff
+name: Nickel
+description: Not very rare, but useful.
+research: {
+  research: start
+  parent: start
+}
