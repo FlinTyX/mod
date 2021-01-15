@@ -1,0 +1,13 @@
+color: ffffff
+name: Pressure Alloy
+description: Pressure resistant yeet
+cost: 4
+
+research: {
+  research: nickel
+  parent: titanium
+  requirements: [
+    nickel/6990
+    titanium/4290
+  ]
+}
