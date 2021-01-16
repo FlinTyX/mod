@@ -1,0 +1,44 @@
+type: genericSmelter
+name: Nitinol Smelter
+description: Fuses Nickel and Titanium to create a malleable and resistant alloy.
+
+health: 300
+size: 2
+hasItems: true
+hasLiquids: false
+hasPower: true
+itemCapacity: 6
+
+craftTime: 80
+craftEffect: steam
+
+ambientSound: machine
+ambientSoundVolume: 0.4
+
+consumes: {
+  power: 1.1
+  items: {
+    items: [
+      titanium/1
+      nickel/2
+    ]
+  }
+}
+outputItem: nitinol/1
+
+requirements: [
+  copper/80
+  nickel/47
+  silicon/55
+]
+
+category: crafting
+research: {
+  research: start
+  parent: nitinol
+  requirements: [
+    copper/2150
+    nickel/1572
+    silicon/2000
+  ]
+}
