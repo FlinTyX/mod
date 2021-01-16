@@ -1,0 +1,18 @@
+type: wall
+name: Large Nickel Wall
+health: 1405
+solid: true
+size: 2
+
+requirements: [
+  nickel/18
+]
+
+category: defence
+research: {
+  research: nickel-wall
+  parent: nickel
+  requirements: [
+    nickel/308
+  ]
+}
