@@ -1,6 +1,6 @@
-color: ffffff
-name: Pressure Alloy
-description: Pressure resistant yeet
+color: b1c3e6
+name: Nitinol
+description: A simple alloy that is malleable and resistant.
 cost: 4
 
 research: {
