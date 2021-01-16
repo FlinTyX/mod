@@ -1,0 +1,19 @@
+type: wall
+name: Nickel Wall
+
+health: 605
+solid: true
+size: 1
+
+requirements: [
+  nickel/7
+]
+
+category: defence
+research: {
+  research: start
+  parent: nickel
+  requirements: [
+    nickel/72
+  ]
+}
