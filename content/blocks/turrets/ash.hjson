@@ -4,8 +4,8 @@ description:
 
 health: 310
 size: 1
-range: 17
-reloadTime: 45
+range: 37
+reloadTime: 30
 targetGround: true
 targetAir: true
 alternate: true
@@ -13,9 +13,9 @@ maxAmmo: 12
 ammoPerShot: 2
 innacuracy: 4
 shots: 2
-spacing: 4
+spacing: 3
 shootSound: shootBig
-recoilAmount: 2
+recoilAmount: 1.6
 
 ammoTypes: {
   copper: {
