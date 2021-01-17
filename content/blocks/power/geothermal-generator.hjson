@@ -7,6 +7,8 @@ size: 3
 hasPower: true
 hasItems: false
 powerProduction: 1.3
+generateEffect: none
+attribute: heat
 floating: true
 solid: true
 
@@ -22,9 +24,9 @@ research: {
   research: thermal-generator
   parent: nitinol
   requirements: [
-    copper/4050
-    lead/3390
-    silicon/3005
-    nitinol/2905
+    copper/6050
+    lead/4390
+    silicon/6005
+    nitinol/4220
   ]
 }
