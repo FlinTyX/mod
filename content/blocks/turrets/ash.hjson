@@ -21,7 +21,7 @@ ammoTypes: {
     type: BasicBulletType
     damage: 10
     height: 14
-    lifetime:
+    lifetime: 65
     width: 8
     speed: 3.5
   }
@@ -30,6 +30,7 @@ ammoTypes: {
     damage: 12
     height: 20
     width: 8
+    lifetime: 65
     speed: 3.5
     hitEffect: smokeCloud
     frontColor: ffffff
@@ -41,6 +42,7 @@ ammoTypes: {
     height: 10
     width: 7
     speed: 3.5
+    lifetime: 65
     shootEffect: shootSmallSmoke
   }
 }
