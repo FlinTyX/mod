@@ -88,9 +88,9 @@ ammoTypes: {
 }
 
 requirements: [
-  copper: 100
-  lead: 72
-  titanium: 85
+  copper/100
+  lead/72
+  titanium/85
 ]
 
 category: turret
