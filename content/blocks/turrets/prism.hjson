@@ -9,15 +9,14 @@ hasLiquids: true
 targetAir: true
 targetGround: true
 
-reloadTime: 28
-range: 80
+reloadTime: 16
+range: 150
 maxAmmo: 30
-shots: 2
-inaccuracy: 0.3
-recoilAmount: 2.2
+shots: 1
+inaccuracy: 1
+recoilAmount: 2
 shootEffect: shootBig2
 smokeEffect: shootSmallSmoke
-hitEffect: hitBulletSmall
 shootSound: artillery
 liquidMultiplier: 1.7
 ammoEjectBack: 0.5
@@ -27,10 +26,10 @@ ammoTypes: {
   metaglass: {
     type: BasicBulletType
     damage: 13
-    speed: 3
-    lifeTime: 92
-    width: 12
-    height: 25
+    speed: 3.3
+    lifeTime: 100
+    width: 10
+    height: 18
     splashDamage: 2
     splashDamageRadius: 15
     fragBullets: 5
@@ -39,8 +38,8 @@ ammoTypes: {
       damage: 3
       width: 5
       height: 9
-      speed: 3.3
-      lifeTime: 25
+      speed: 3
+      lifeTime: 10
     }
   }
   nickel: {
@@ -48,8 +47,8 @@ ammoTypes: {
     damage: 14
     speed: 3
     lifeTime: 92
-    width: 14
-    height: 24
+    width: 11
+    height: 18
     pierce: true
     ammoMultiplier: 3.5
     frontColor: ffffff
@@ -58,20 +57,20 @@ ammoTypes: {
   nitinol: {
     type: BasicBulletType
     damage: 30
-    width: 15
-    height: 24
-    speed: 2.6
+    width: 10
+    height: 18
+    speed: 3.3
     lifeTime: 92
     pierce: true
     frontColor: e1e9f0
-    backColor: 8399e6
+    backColor: 827de9
   }
   titanium: {
     type: BasicBulletType
     damage: 21
     width: 12
-    height: 23
-    speed: 2.3
+    height: 18
+    speed: 3
     lifetime: 95
     frontColor: 827de9
     backColor: 6974c4
@@ -80,8 +79,8 @@ ammoTypes: {
     type: BasicBulletType
     damage: 9
     width: 10
-    height: 22
-    speed: 2.6
+    height: 16
+    speed: 3.3
     lifetime: 90
     ammoMultiplier: 4
   }
