@@ -49,7 +49,6 @@ ammoTypes: {
     width 14
     height: 24
     pierce: true
-    ammoMultiplier: 3
     frontColor: ffffff
     backColor: cccedb
   }
