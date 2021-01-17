@@ -9,7 +9,7 @@ requirements: [
   nickel/7
 ]
 
-category: defence
+category: defense
 research: {
   research: start
   parent: nickel
