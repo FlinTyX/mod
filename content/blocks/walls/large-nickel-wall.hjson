@@ -8,7 +8,7 @@ requirements: [
   nickel/18
 ]
 
-category: defence
+category: defense
 research: {
   research: nickel-wall
   parent: nickel
