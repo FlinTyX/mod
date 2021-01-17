@@ -46,9 +46,10 @@ ammoTypes: {
     damage: 14
     speed: 3
     lifeTime: 92
-    width 14
+    width: 14
     height: 24
     pierce: true
+    ammoMultiplier: 3.5
     frontColor: ffffff
     backColor: cccedb
   }
@@ -80,6 +81,7 @@ ammoTypes: {
     height: 22
     speed: 2.6
     lifetime: 90
+    ammoMultiplier: 4
   }
 }
 
