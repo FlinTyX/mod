@@ -4,8 +4,8 @@ description:
 
 health: 310
 size: 1
-range: 37
-reloadTime: 30
+range: 50
+reloadTime: 15
 targetGround: true
 targetAir: true
 alternate: true
@@ -14,7 +14,6 @@ ammoPerShot: 2
 innacuracy: 4
 shots: 2
 spacing: 3
-shootSound: shootBig
 recoilAmount: 1.6
 
 ammoTypes: {
@@ -23,14 +22,14 @@ ammoTypes: {
     damage: 10
     heigth: 14
     width: 8
-    speed: 1.5
+    speed: 4
   }
   nickel: {
     type: BasicBulletType
     damage: 12
     heigth: 20
     width: 8
-    speed: 2
+    speed: 4
     hitEffect: smokeCloud
     frontColor: ffffff
     backColor: a1b1d0
@@ -40,7 +39,7 @@ ammoTypes: {
     damage: 11
     heigth: 10
     width: 7
-    speed: 2
+    speed: 4
     shootEffect: shootSmallSmoke
   }
 }
