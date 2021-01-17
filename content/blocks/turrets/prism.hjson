@@ -1,6 +1,6 @@
 type: itemTurret
 name: Prism
-description:
+description: A medium damage turret. Can target ground and air units.
 
 health: 1000
 size: 2
