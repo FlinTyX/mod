@@ -1,0 +1,102 @@
+type: itemTurret
+name: Prism
+description:
+
+health: 1000
+size: 2
+hasItems: true
+hasLiquids: true
+targetAir: true
+targetGround: true
+
+reloadTime: 28
+range: 80
+maxAmmo: 30
+shots: 2
+inaccuracy: 0.3
+recoilAmount: 2.2
+shootEffect: shootBig2
+smokeEffect: shootSmoke
+hitEffect: hitBulletSmall
+shootSound: artillery
+liquidMultiplier: 1.7
+
+ammoTypes: {
+  metaglass: {
+    type: BasicBulletType
+    damage: 13
+    speed: 3
+    lifeTime: 92
+    width: 12
+    heigth: 25
+    splashDamage: 2
+    splashDamageRadius: 15
+    fragBullets: 5
+    fragBullet: {
+      type: BasicBulletType
+      damage: 3
+      width: 5
+      heigth: 9
+      speed: 3.3
+      lifeTime: 25
+    }
+  }
+  nickel: {
+    type: BasicBulletType
+    damage: 14
+    speed: 3
+    lifeTime: 92
+    width 14
+    heigth: 24
+    pierce: true
+    ammoMultiplier: 3
+    frontColor: ffffff
+    backColor: cccedb
+  }
+  nitinol: {
+    type: BasicBulletType
+    damage: 30
+    width: 15
+    heigth: 24
+    speed: 2.6
+    lifeTime: 92
+    pierce: true
+    frontColor: e1e9f0
+    backColor: 8399e6
+  }
+  titenium: {
+    type: BasicBulletType
+    damage: 21
+    width: 12
+    heigth: 23
+    speed: 2.3
+    lifetime: 95
+    frontColor: 827de9
+    backColor: 6974c4
+  }
+  lead: {
+    type: BasicBulletType
+    damage: 9
+    width: 10
+    heigth: 22
+    speed: 2.6
+    lifetime: 90
+  }
+}
+
+requirements: [
+  copper: 100
+  lead: 72
+  titanium: 85
+]
+
+category: turret
+research: {
+  research: ash
+  parent: titanium
+  requirements: [
+    copper/2800
+    lead/1990
+    titanium/2050
+  ]
+}
