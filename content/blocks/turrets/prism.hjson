@@ -16,10 +16,12 @@ shots: 2
 inaccuracy: 0.3
 recoilAmount: 2.2
 shootEffect: shootBig2
-smokeEffect: shootSmoke
+smokeEffect: shootSmallSmoke
 hitEffect: hitBulletSmall
 shootSound: artillery
 liquidMultiplier: 1.7
+ammoEjectBack: 0.5
+ammoUseEffect: none
 
 ammoTypes: {
   metaglass: {
