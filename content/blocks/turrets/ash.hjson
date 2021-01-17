@@ -4,7 +4,7 @@ description:
 
 health: 310
 size: 1
-range: 50
+range: 80
 reloadTime: 15
 targetGround: true
 targetAir: true
@@ -13,23 +13,24 @@ maxAmmo: 12
 ammoPerShot: 2
 innacuracy: 4
 shots: 2
-spacing: 3
-recoilAmount: 1.6
+spacing: 2
+recoilAmount: 1
 
 ammoTypes: {
   copper: {
     type: BasicBulletType
     damage: 10
-    heigth: 14
+    height: 14
+    lifetime:
     width: 8
-    speed: 4
+    speed: 3.5
   }
   nickel: {
     type: BasicBulletType
     damage: 12
-    heigth: 20
+    height: 20
     width: 8
-    speed: 4
+    speed: 3.5
     hitEffect: smokeCloud
     frontColor: ffffff
     backColor: a1b1d0
@@ -37,9 +38,9 @@ ammoTypes: {
   silicon: {
     type: BasicBulletType
     damage: 11
-    heigth: 10
+    height: 10
     width: 7
-    speed: 4
+    speed: 3.5
     shootEffect: shootSmallSmoke
   }
 }
