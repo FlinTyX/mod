@@ -1,6 +1,7 @@
-name: "mod"
-displayName: "Mod"
-author: "Flin"
-description: "working"
-version: "0.0"
-minGameVersion: "122.1"
+name: mod
+displayName: Mod
+author: Flin
+description: working
+main: FlinTyX/mod
+version: 0.0
+minGameVersion: 122.1
