@@ -21,34 +21,35 @@ shootSound: artillery
 liquidMultiplier: 1.7
 ammoEjectBack: 0.5
 ammoUseEffect: none
+restitution: 0.1
 
 ammoTypes: {
   metaglass: {
     type: BasicBulletType
     damage: 13
-    speed: 3.3
-    lifeTime: 100
-    width: 10
-    height: 18
+    speed: 3.5
+    lifeTime: 110
+    width: 8
+    height: 16
     splashDamage: 2
-    splashDamageRadius: 15
-    fragBullets: 5
+    splashDamageRadius: 10
+    fragBullets: 2
     fragBullet: {
       type: BasicBulletType
-      damage: 3
-      width: 5
-      height: 9
-      speed: 3
-      lifeTime: 10
+      damage: 2
+      width: 4
+      height: 7
+      speed: 2
+      lifeTime: 5
     }
   }
   nickel: {
     type: BasicBulletType
     damage: 14
-    speed: 3
-    lifeTime: 92
-    width: 11
-    height: 18
+    speed: 3.5
+    lifeTime: 110
+    width: 8
+    height: 16
     pierce: true
     ammoMultiplier: 3.5
     frontColor: ffffff
@@ -57,10 +58,10 @@ ammoTypes: {
   nitinol: {
     type: BasicBulletType
     damage: 30
-    width: 10
-    height: 18
-    speed: 3.3
-    lifeTime: 92
+    width: 8
+    height: 16
+    speed: 3.5
+    lifeTime: 110
     pierce: true
     frontColor: e1e9f0
     backColor: 827de9
@@ -68,20 +69,20 @@ ammoTypes: {
   titanium: {
     type: BasicBulletType
     damage: 21
-    width: 12
-    height: 18
-    speed: 3
-    lifetime: 95
+    width: 8
+    height: 15
+    speed: 3.4
+    lifetime: 115
     frontColor: 827de9
     backColor: 6974c4
   }
   lead: {
     type: BasicBulletType
     damage: 9
-    width: 10
-    height: 16
-    speed: 3.3
-    lifetime: 90
+    width: 8
+    height: 15
+    speed: 3.5
+    lifetime: 107
     ammoMultiplier: 4
   }
 }
