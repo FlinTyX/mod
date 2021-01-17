@@ -28,7 +28,7 @@ ammoTypes: {
     speed: 3
     lifeTime: 92
     width: 12
-    heigth: 25
+    height: 25
     splashDamage: 2
     splashDamageRadius: 15
     fragBullets: 5
@@ -36,7 +36,7 @@ ammoTypes: {
       type: BasicBulletType
       damage: 3
       width: 5
-      heigth: 9
+      height: 9
       speed: 3.3
       lifeTime: 25
     }
@@ -47,7 +47,7 @@ ammoTypes: {
     speed: 3
     lifeTime: 92
     width 14
-    heigth: 24
+    height: 24
     pierce: true
     ammoMultiplier: 3
     frontColor: ffffff
@@ -57,7 +57,7 @@ ammoTypes: {
     type: BasicBulletType
     damage: 30
     width: 15
-    heigth: 24
+    height: 24
     speed: 2.6
     lifeTime: 92
     pierce: true
@@ -68,7 +68,7 @@ ammoTypes: {
     type: BasicBulletType
     damage: 21
     width: 12
-    heigth: 23
+    height: 23
     speed: 2.3
     lifetime: 95
     frontColor: 827de9
@@ -78,7 +78,7 @@ ammoTypes: {
     type: BasicBulletType
     damage: 9
     width: 10
-    heigth: 22
+    height: 22
     speed: 2.6
     lifetime: 90
   }
