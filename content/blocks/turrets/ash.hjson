@@ -15,6 +15,8 @@ innacuracy: 4
 shots: 2
 spacing: 2
 recoilAmount: 1.5
+shootEffect: shootBig
+smokeEffect: shootSmallSmoke
 
 ammoTypes: {
   copper: {
@@ -43,7 +45,6 @@ ammoTypes: {
     width: 6
     speed: 3.7
     lifetime: 35
-    shootEffect: shootSmallSmoke
   }
 }
 
