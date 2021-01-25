@@ -1,0 +1,41 @@
+type: PointDefenseTurret
+name: Vertex
+description: An advanced version of Segment.
+
+hasPower: true
+hasItems: false
+hasLiquids: true
+
+size: 3
+coolantMultiplier: 1.2
+range: 200
+shootLength: 7.5
+bulletDamage: 37
+reloadTime: 8
+
+conseumes: {
+  power: 9.5
+  liquid: {
+    liquid: cryofluid
+    amount: 1
+    optional: true
+    booster: true
+  }
+}
+
+requirements: [
+  silicon/210
+  thorium/115
+  nitinol/95
+]
+
+category: turret
+research: {
+  research: segment
+  parent: nitinol
+  requirements: [
+    silicon/3245
+    thorium/2352
+    nitinol/2074
+  ]
+}
