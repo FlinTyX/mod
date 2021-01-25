@@ -1,7 +1,7 @@
-name: mod
-displayName: Mod
+name: diverse-tech
+displayName: Diverse Tech
 author: Flin
-description: working
-main: FlinTyX/mod
-version: 0.0
+description: in dev
+main: Flin/DiverseTech
+version: 0.0.1
 minGameVersion: 122.1
