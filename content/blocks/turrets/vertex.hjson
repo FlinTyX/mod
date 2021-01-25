@@ -8,20 +8,13 @@ hasLiquids: true
 
 size: 3
 coolantMultiplier: 1.2
-range: 200
+range: 210
 shootLength: 7.5
 bulletDamage: 37
 reloadTime: 8
+powerUse: 10
+restitution: 0.1
 
-conseumes: {
-  power: 9.5
-  liquid: {
-    liquid: cryofluid
-    amount: 1
-    optional: true
-    booster: true
-  }
-}
 
 requirements: [
   silicon/210
