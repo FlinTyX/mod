@@ -1,1 +1,2 @@
-require("omicron")
+require("omicron");
+require("dynamite")
