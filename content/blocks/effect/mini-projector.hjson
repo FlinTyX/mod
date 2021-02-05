@@ -1,0 +1,56 @@
+type: ForceProjector
+name: Mini Projector
+description: smol projector yeet
+
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+health: 300
+size: 2
+liquidCapacity: 8
+itemCapacity: 8
+
+timerUse: 0.7
+phaseUseTime: 300
+phaseRadiusBoost: 50
+phaseShieldBoost: 100
+radius: 51
+shieldHealth: 350
+coolDownNormal: 1
+coolDownLiquid: 0.8
+coolDownBrokenBase: 0.25
+basePowerDraw: 0.2
+
+requirements: [
+  lead/60
+  titanium/48
+  silicon/70
+]
+
+consumes: {
+  power: 2.2
+  items: {
+    items: [
+      silicon/1
+    ]
+  booster: true
+  optional: true
+  }
+  liquid: {
+    liquid: water
+    amount: 0.4
+    booster: true
+    optional: true
+  }
+}
+
+category: effect
+research: {
+  research: start
+  requirements: [
+    lead/2090
+    titanium/1800
+    silicon/2550
+  ]
+}
