@@ -48,6 +48,7 @@ consumes: {
 category: effect
 research: {
   research: start
+  parent: start
   requirements: [
     lead/2090
     titanium/1800
