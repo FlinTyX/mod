@@ -1,0 +1,59 @@
+type: ForceProjector
+name: Hyper Projector
+description: beeg projector yeet
+
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+health: 600
+size: 5
+liquidCapacity: 30
+itemCapacity: 10
+
+timerUse: 1.35
+phaseUseTime: 375
+phaseRadiusBoost: 100
+phaseShieldBoost: 700
+radius: 250
+shieldHealth: 1500
+coolDownNormal: 5
+coolDownLiquid: 4.5
+coolDownBrokenBase: 0.50
+basePowerDraw: 0.5
+
+requirements: [
+  lead/405
+  titanium/365
+  silicon/542
+  nitinol/138
+]
+
+consumes: {
+  power: 6
+  items: {
+    items: [
+      phase-fabric/1
+      nitinol/1
+    ]
+  booster: true
+  optional: true
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 1.8
+    booster: true
+    optional: true
+  }
+}
+
+category: effect
+research: {
+  research: start
+  requirements: [
+    lead/5600
+    titanium/4880
+    silicon/6080
+    nitinol/3005
+  ]
+}
