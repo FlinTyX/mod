@@ -9,8 +9,8 @@ hasLiquids: false
 hasPower: true
 itemCapacity: 6
 
-craftTime: 80
-craftEffect: steam
+craftTime: 85
+craftEffect: smeltsmoke
 
 ambientSound: machine
 ambientSoundVolume: 0.4
