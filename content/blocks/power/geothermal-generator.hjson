@@ -11,7 +11,7 @@ generateEffect: none
 attribute: heat
 floating: true
 solid: true
-generateEffect: magmaSmoke
+generateEffect: magmasmoke
 
 requirements: [
   copper/90
