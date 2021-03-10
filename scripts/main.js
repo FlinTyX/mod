@@ -1,2 +1,1 @@
 require("omicron");
-require("dynamite")
